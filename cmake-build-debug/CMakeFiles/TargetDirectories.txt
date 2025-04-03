@@ -1,0 +1,3 @@
+/home/iarlo/Desktop/Lista_ED1/TAD_Circulo/cmake-build-debug/CMakeFiles/TAD_Circulo.dir
+/home/iarlo/Desktop/Lista_ED1/TAD_Circulo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/iarlo/Desktop/Lista_ED1/TAD_Circulo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
