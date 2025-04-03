@@ -3,4 +3,6 @@ project(TAD_Circulo C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(TAD_Circulo main.c)
+add_executable(TAD_Circulo main.c
+        Circulo.h
+        Circulo.c)
