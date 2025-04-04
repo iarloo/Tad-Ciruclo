@@ -1,3 +1,7 @@
-//
-// Created by iarlo on 4/3/25.
-//
+#include "Ponto.h"
+
+struct circulo {
+    float raio;
+    Ponto *p;
+};
+
