@@ -71,6 +71,7 @@ build CMakeFiles/TAD_Circulo.dir/Circulo.c.o: C_COMPILER__TAD_Circulo_unscanned_
 
 build TAD_Circulo: C_EXECUTABLE_LINKER__TAD_Circulo_Debug CMakeFiles/TAD_Circulo.dir/main.c.o CMakeFiles/TAD_Circulo.dir/Circulo.c.o
   FLAGS = -g
+  LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/TAD_Circulo.dir
   POST_BUILD = :
   PRE_LINK = :
