@@ -55,6 +55,12 @@ build CMakeFiles/TAD_Circulo.dir/main.c.o: C_COMPILER__TAD_Circulo_unscanned_Deb
   OBJECT_DIR = CMakeFiles/TAD_Circulo.dir
   OBJECT_FILE_DIR = CMakeFiles/TAD_Circulo.dir
 
+build CMakeFiles/TAD_Circulo.dir/Ponto.c.o: C_COMPILER__TAD_Circulo_unscanned_Debug /home/iarlo/Desktop/Lista_ED1/TAD_Circulo/Ponto.c || cmake_object_order_depends_target_TAD_Circulo
+  DEP_FILE = CMakeFiles/TAD_Circulo.dir/Ponto.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/TAD_Circulo.dir
+  OBJECT_FILE_DIR = CMakeFiles/TAD_Circulo.dir
+
 build CMakeFiles/TAD_Circulo.dir/Circulo.c.o: C_COMPILER__TAD_Circulo_unscanned_Debug /home/iarlo/Desktop/Lista_ED1/TAD_Circulo/Circulo.c || cmake_object_order_depends_target_TAD_Circulo
   DEP_FILE = CMakeFiles/TAD_Circulo.dir/Circulo.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
@@ -69,7 +75,7 @@ build CMakeFiles/TAD_Circulo.dir/Circulo.c.o: C_COMPILER__TAD_Circulo_unscanned_
 #############################################
 # Link the executable TAD_Circulo
 
-build TAD_Circulo: C_EXECUTABLE_LINKER__TAD_Circulo_Debug CMakeFiles/TAD_Circulo.dir/main.c.o CMakeFiles/TAD_Circulo.dir/Circulo.c.o
+build TAD_Circulo: C_EXECUTABLE_LINKER__TAD_Circulo_Debug CMakeFiles/TAD_Circulo.dir/main.c.o CMakeFiles/TAD_Circulo.dir/Ponto.c.o CMakeFiles/TAD_Circulo.dir/Circulo.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/TAD_Circulo.dir
